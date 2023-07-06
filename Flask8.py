@@ -20,7 +20,7 @@ def register_user(username, password):
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='fwbBvhvjI15329',
+        password='',
         database='users&passws'
     )
     cursor = connection.cursor()
@@ -40,7 +40,7 @@ def login(username, password):
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='fwbBvhvjI15329',
+        password='',
         database='users&passws'
     )
     cursor = connection.cursor()
